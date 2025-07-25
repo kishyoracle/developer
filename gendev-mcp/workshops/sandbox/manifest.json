@@ -1,0 +1,65 @@
+{
+    "workshoptitle": "Generative Data-Centric Application Development",
+    "help": "livelabs-help-developer_us@oracle.com",
+    "variables": ["../../variables/variables.json",
+        "../../variables/variables-in-another-file.json"],
+    "tutorials": [
+        {
+            "title": "Get Started",
+            "description": "Prerequisites for LiveLabs (Oracle-owned tenancies). The title of the lab and the Contents Menu title (the title above) match for Prerequisite lab. This lab is always first.",
+            "filename": "https://oracle-livelabs.github.io/common/labs/cloud-login/cloud-login-livelabs2.md"
+        },
+        {
+            "title": "Introduction",
+            "description": "The Introduction is always second for LiveLabs. The title and contents menu title match for the Introduction.",
+            "filename": "../../introduction/introduction.md"
+        },
+        {
+            "title": "Lab 1: Setup Visual Studio Code",
+            "description": "This lab shows you how to download, install, and setup VS Code",
+            "filename": "../../vscode/vscode.md"
+        },
+        {
+            "title": "Lab 2: Setup GitHub Copilot in Visual Studio Code",
+            "description": "This lab shows you how to setup GitHub Copilot, an MCP client, with VS Code",
+            "filename": "../../copilot/copilot.md"
+        },
+        {
+            "title": "Lab 3: Setup GenDev MCP server",
+            "description": "This lab shows you how to download the GenDev MCP python package from the OCI Sandbox environment, connect to the Oracle autonomous database in the OCI Sandbox environment, and launch the GenDev MCP server from VS Code",
+            "filename": "../../mcp-setup/mcp-setup.md"
+        },
+        {
+            "title": "Lab 4: Start building the application with Modules",
+            "description": "This lab shows you how to develop your application using the GenDev methodology by first generating the modules of the application",
+            "filename": "../../build-start/build-start.md"
+        },
+        {
+            "title": "Lab 5: Generate the Data Access APIs",
+            "description": "This lab shows you how to generate and customize the data access APIs of the application modules",
+            "filename": "../../data-api/data-api.md"
+        },
+        {
+            "title": "Lab 6: Generate the database objects",
+            "description": "This lab shows you how to generate the database objects to satisfy the data access APIs, visualize the entity-relationship diagram, and create those objects on the autonomous database",
+            "filename": "../../database-objects/database-objects.md"
+        },
+        {
+            "title": "Lab 7: Generate the app business logic and frontend",
+            "filename": "../../app-frontend/app-frontend.md"
+        },
+        {
+            "title": "Lab 8: Launch the application",
+            "filename": "../../launch-app/launch-app.md"
+        },
+        {
+            "title": "Lab 9: Evolve the application",
+            "filename": "../../evolve-app/evolve-app.md"
+        },
+        {
+            "title": "Need Help?",
+            "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+            "filename":"https://oracle-livelabs.github.io/common/labs/need-help/need-help-livelabs.md"
+        }
+    ]
+}
